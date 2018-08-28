@@ -1,0 +1,25 @@
+main {
+	text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  background: url("background.png");
+  background-size: 100% 100%;
+}
+
+.fixedBottom {
+  position: absolute; 
+  bottom: 0;  
+  z-index: 1;
+}
+
+.fixedTop {
+  position: fixed; 
+  top: 0; 
+  z-index: 1;
+}
+
+section {
+	height: 100vh;
+}
