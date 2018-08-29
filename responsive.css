@@ -70,4 +70,26 @@
   .col-12 {
     width: 100%;
   }
+
+  nav img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+  }
+
+  ul {
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 0px;
+  }
+
+  li {
+    padding-left: 20px;
+  }
+
+  .nameTitle {
+    float: left;
+    padding: 25px;
+  }
 }

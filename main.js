@@ -21,13 +21,19 @@ $("#contact").click(function(){
 
 
 $(window).bind('scroll', function() {
-	var navHeight = $(window).height() - 80;
-	 if ($(window).scrollTop() > navHeight) {
+	if($(window).width() >= 640) {
+		var navHeight = $(window).height() - 70;
+	}
+	else {
+		var navHeight = $(window).height() - 20;
+	}
+
+	if ($(window).scrollTop() > navHeight) {
 		$('nav').addClass('fixedTop');
 		$('nav').removeClass('fixedBottom');
-	 }
-	 else {
+	}
+	else {
 	 	$('nav').addClass('fixedBottom');
 		$('nav').removeClass('fixedTop');
-	 }
+	}
 });
