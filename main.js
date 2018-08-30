@@ -7,8 +7,8 @@ $("#home").click(function(){
 	scrollToAnchor('home');
 });
 
-$("#projects").click(function(){
-	scrollToAnchor('projects');
+$("#shop").click(function(){
+	scrollToAnchor('shop');
 });
 
 $("#about").click(function(){
