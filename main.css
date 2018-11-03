@@ -17,6 +17,7 @@ main {
 .fixedTop {
   position: fixed; 
   top: 0; 
+  height: 70px;
   z-index: 1;
 }
 
@@ -31,10 +32,13 @@ main {
 
 section {
 	height: 100vh;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 nav {
+  height: 70px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   background: black;
 }
@@ -50,9 +54,28 @@ ul {
   padding-top: 10px;
   padding-right: 25px;
   padding-left: 0px;
+  margin-top: 0px;
 }
 
 li {
   padding-left: 20px;
   display: inline-block;
+}
+
+.iconButton {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+#originals {
+  background: blue;
+}
+
+#canPrints {
+  background: gray;
+}
+
+#posPrints {
+  background: yellow; 
 }
