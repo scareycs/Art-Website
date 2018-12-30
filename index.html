@@ -6,11 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Purchase Original Art Pieces and Prints from Shawna Carey.">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!--JQuery-->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto:300,400" rel="stylesheet">
 </head>
 <body>
 	<main role="main">
@@ -20,18 +20,19 @@
 	      <div class="heroText">
 	          <p class="introHeader">Some clever text here.</p> 
 	      </div>
-      </section>
+      
 
-      <nav role="navigation" class="fixedBottom">
+      <nav role="navigation">
           <div class="logo"><img src="Avatar.png" alt="Shawna Carey's Logo"></div>
           <a id="home" href="#"><div class="nameTitle">Shawna Patrice Carey</div></a>
 
           <ul>
-            <a id="shop" href="#"><li>Shop</li></a>
-            <a id="about" href="#"><li>About</li></a>
-            <a id="contact" href="#"><li>Contact</li></a>
+            <a class="navOpt" id="shop" href="#"><li>Shop</li></a>
+            <a class="navOpt" id="about" href="#"><li>About</li></a>
+            <a class="navOpt" id="contact" href="#"><li>Contact</li></a>
           </ul>
       </nav>
+      </section>
 
       <a name="shop"/>
       <section class="shop">
@@ -39,18 +40,18 @@
 
           <div class="row">
             <div class="col-4">
-              <div class="shopOpt" id="originals">
-                <button class=""><a href="#">Originals</a></button>
+              <div class="shopOpt">
+                <button class="iconButton" id="originals"><a href="#">Originals</a></button>
               </div>
             </div>
             <div class="col-4">
-              <div class="shopOpt" id="originals">
-                <button class=""><a href="#">Canvas Prints</a></button>
+              <div class="shopOpt">
+                <button class="iconButton" id="canPrints"><a href="#">Canvas Prints</a></button>
               </div>
             </div>
             <div class="col-4">
-              <div class="shopOpt" id="originals">
-                <button class=""><a href="#">Poster Prints</a></button>
+              <div class="shopOpt">
+                <button class="iconButton" id="posPrints"><a href="#">Poster Prints</a></button>
               </div>
             </div>
           </div>
@@ -59,7 +60,7 @@
       <a name="about"/>
       <section class="about">
         <div class="secTitle">
-         This is the project section
+         This is the about section
         </div>
       </section>
 
@@ -69,5 +70,6 @@
       </section>
 
       <script src="main.js"></script>
+  </main>
 </body>
 </html>
