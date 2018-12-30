@@ -19,8 +19,8 @@ body {
 .row {
   max-width: 1000px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Clearfix */
@@ -43,8 +43,8 @@ body {
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
    *
    */
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
+  /*padding-left: 1.04166666%;
+  padding-right: 1.04166666%;*/
 }
 
 /* Mobile defaults */
@@ -62,7 +62,7 @@ body {
 
   /* 4 columns */
   .col-4 {
-    width: 33.3%
+    /*width: 33.3%*/
   }
 
   /* 6 columns */
@@ -79,6 +79,7 @@ body {
     height: 80px;
     width: 80px;
     padding-bottom: 10px;
+    padding-left: 10px;
   }
 
   ul {
@@ -89,7 +90,7 @@ body {
   }
 
   li {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 
   .nameTitle {

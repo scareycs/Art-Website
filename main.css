@@ -12,7 +12,7 @@ a {
 
 .hero {
   height: 100vh;
-  background: url("background.png");
+  /*background: url("background.png");*/
   background-size: 100% 100%;
 }
 
@@ -30,8 +30,7 @@ a {
 }
 
 section {
-	height: 100vh;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 nav {
@@ -53,22 +52,31 @@ nav img {
   font-size: 25px;
 }
 
+nav li:hover {
+  text-decoration: underline;
+}
+
 ul {
-  padding-top: 10px;
+  
   padding-right: 25px;
   padding-left: 0px;
   margin-top: 0px;
 }
 
 li {
-  padding-left: 20px;
+  margin-left: 20px;
   display: inline-block;
 }
 
 .iconButton {
   height: 200px;
-  width: 200px;
-  margin: 20px;
+  width: 100%;
+}
+
+.nameTitle {
+  padding-top: 8px;
+  font-size: 17px;
+  color: white;
 }
 
 #originals {
@@ -81,4 +89,25 @@ li {
 
 #posPrints {
   background: yellow; 
+}
+
+.secTitle {
+  font-size: 30px;
+  color: #1f7888;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shopOpt {
+  padding-bottom: 20px;
+}
+
+.about {
+  color: white;
+  background: #2db0c8;
+}
+
+.contact {
+  color: ;
+  background: ;
 }
