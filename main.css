@@ -53,18 +53,17 @@ nav img {
 }
 
 nav li:hover {
-  text-decoration: underline;
+  background: #30BBD5;
 }
 
 ul {
-  
-  padding-right: 25px;
   padding-left: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 li {
-  margin-left: 20px;
+  padding: 18px;
   display: inline-block;
 }
 
@@ -74,8 +73,7 @@ li {
 }
 
 .nameTitle {
-  padding-top: 8px;
-  font-size: 17px;
+  font-size: 0px;
   color: white;
 }
 
@@ -105,9 +103,14 @@ li {
 .about {
   color: white;
   background: #2db0c8;
+  padding: 30px;
 }
 
 .contact {
   color: ;
   background: ;
+}
+
+p {
+    font-size: 25px;
 }

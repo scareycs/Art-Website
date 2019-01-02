@@ -84,20 +84,21 @@ body {
 
   ul {
     float: right;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 0px;
   }
 
   li {
-    margin-left: 20px;
+    padding: 18px;
   }
 
   .nameTitle {
     float: left;
-    padding: 24px;
+    padding: 18px;
     color: white;
     margin: 0px;
     font-size: 27px;
+  }
+  .about {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
