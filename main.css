@@ -78,21 +78,28 @@ li {
 }
 
 #originals {
-  background: blue;
+  background: #2db0c8;
+  border: 1px;
 }
 
 #canPrints {
-  background: gray;
+  background: #9F3AAB;
+  border: 1px;
 }
 
 #posPrints {
-  background: yellow; 
+  background: #25D58F; 
+  border: 1px;
 }
 
 .secTitle {
   font-size: 30px;
   color: #1f7888;
   margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shop {
   padding-bottom: 20px;
 }
 
@@ -109,6 +116,11 @@ li {
 .contact {
   color: ;
   background: ;
+}
+
+#profPic {
+  height:100%;
+  width: 100%
 }
 
 p {
