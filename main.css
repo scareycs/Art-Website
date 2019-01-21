@@ -68,28 +68,21 @@ li {
 }
 
 .iconButton {
+  background-color: Transparent;
   height: 200px;
   width: 100%;
+  border: none;
+}
+
+.buttonText {
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 40px;
 }
 
 .nameTitle {
   font-size: 0px;
   color: white;
-}
-
-#originals {
-  background: #2db0c8;
-  border: 1px;
-}
-
-#canPrints {
-  background: #9F3AAB;
-  border: 1px;
-}
-
-#posPrints {
-  background: #25D58F; 
-  border: 1px;
 }
 
 .secTitle {
@@ -100,11 +93,49 @@ li {
 }
 
 .shop {
+  padding-bottom: 40px;
+}
+
+.shopOpt1,
+.shopOpt2,
+.shopOpt3 {
   padding-bottom: 20px;
 }
 
-.shopOpt {
-  padding-bottom: 20px;
+.shopOpt1 {
+  background-image: url("originals.png"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.shopOpt1:hover {
+  background-image: url("originals2.png");
+  background-repeat: no-repeat;
+  background-size: 125%;
+}
+
+.shopOpt2 {
+  background-image: url("canvasPrints.png"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.shopOpt2:hover {
+  background-image: url("canvasPrints2.png");
+  background-repeat: no-repeat;
+  background-size: 125%;
+}
+
+.shopOpt3 {
+  background-image: url("posterPrints.png"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.shopOpt3:hover {
+  background-image: url("posterPrints2.png");
+  background-repeat: no-repeat;
+  background-size: 125%;
 }
 
 .about {
