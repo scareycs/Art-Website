@@ -16,6 +16,16 @@ a {
   background-size: 100% 100%;
 }
 
+.slideShow {
+  width:100%;
+  /*height: 100vh;*/
+}
+
+.imgContainer {
+  margin: 0 auto;
+  overflow:hidden;
+}
+
 .fixedBottom {
   position: absolute; 
   bottom: 0;  
@@ -27,6 +37,14 @@ a {
   top: 0; 
   height: 70px;
   z-index: 1;
+  background-color: #263c53;
+  background-size: contain;
+}
+
+.hero {
+  padding-top: 0%;
+  background: url("doodle.png");
+  background-size: cover;
 }
 
 section {
@@ -38,7 +56,9 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: #279aae;
+  background: url("doodle-bkgd.png");
+  background-color: black;
+  background-size: contain;
 }
 
 nav img {
@@ -53,7 +73,7 @@ nav img {
 }
 
 nav li:hover {
-  background: #30BBD5;
+  background: #9ed3ec;
 }
 
 ul {
@@ -68,10 +88,15 @@ li {
 }
 
 .iconButton {
-  background-color: Transparent;
+  opacity: 0.7;
+  background-color: #2e8cce;
   height: 200px;
-  width: 100%;
-  border: none;
+  width: 200px;
+  border: 1px solid #2e8cce;
+  border-radius: 50%;
+  background-image: url(canvasPrints.png);
+  /* background-repeat: no-repeat; */
+  background-size: 50%;
 }
 
 .buttonText {
@@ -87,13 +112,13 @@ li {
 
 .secTitle {
   font-size: 30px;
-  color: #1f7888;
+  color: #263c53;
   margin-top: 20px;
   padding-bottom: 20px;
 }
 
 .shop {
-  padding-bottom: 40px;
+  
 }
 
 .shopOpt1,
@@ -102,45 +127,38 @@ li {
   padding-bottom: 20px;
 }
 
-.shopOpt1 {
-  background-image: url("originals.png"); 
-  background-repeat: no-repeat;
-  background-size: 90%;
+#originals {
+  border: 1px solid #2e8cce;
+  background: #2e8cce; 
 }
 
-.shopOpt1:hover {
-  background-image: url("originals2.png");
-  background-repeat: no-repeat;
-  background-size: 125%;
+#originals:hover {
+  opacity: 1;
 }
 
-.shopOpt2 {
-  background-image: url("canvasPrints.png"); 
-  background-repeat: no-repeat;
-  background-size: 90%;
+#canPrints {
+  border: 1px solid #9238a4;
+  background: #9238a4; 
+
 }
 
-.shopOpt2:hover {
-  background-image: url("canvasPrints2.png");
-  background-repeat: no-repeat;
-  background-size: 125%;
+#canPrints:hover {
+  opacity: 1;
 }
 
-.shopOpt3 {
-  background-image: url("posterPrints.png"); 
-  background-repeat: no-repeat;
-  background-size: 90%;
+#posPrints {
+  border: 1px solid #1eac49;
+  background: #1eac49; 
+
 }
 
-.shopOpt3:hover {
-  background-image: url("posterPrints2.png");
-  background-repeat: no-repeat;
-  background-size: 125%;
+#posPrints:hover {
+  opacity: 1;
 }
 
 .about {
   color: white;
-  background: #2db0c8;
+  background: #36afe8;
   padding: 30px;
 }
 
@@ -150,6 +168,7 @@ li {
 }
 
 #profPic {
+  border-radius: 50%;
   height:100%;
   width: 100%
 }

@@ -31,3 +31,11 @@ $(window).bind('scroll', function() {
 		$('nav').removeClass('fixedTop');
 	}
 });
+
+$('#originals').click(function(){
+
+});
+
+function main(){
+	
+}
