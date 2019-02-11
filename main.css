@@ -22,8 +22,13 @@ a {
 }
 
 .imgContainer {
-  margin: 0 auto;
-  overflow:hidden;
+    height: 105vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.imgContainer img {
+  height: 100%;
 }
 
 .fixedBottom {
