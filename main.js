@@ -9,14 +9,26 @@ $("#home").click(function(){
 
 $("#shop").click(function(){
 	scrollToAnchor('shop');
+	if ($(window).width() < 780)
+	{
+		$("#menu").prop("checked", false);
+	}
 });
 
 $("#about").click(function(){
 	scrollToAnchor('about');
+	if ($(window).width() < 780)
+	{
+		$("#menu").prop("checked", false);
+	}
 });
 
 $("#contact").click(function(){
 	scrollToAnchor('contact');
+	if ($(window).width() < 780)
+	{
+		$("#menu").prop("checked", false);
+	}
 });
 
 

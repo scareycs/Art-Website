@@ -82,15 +82,18 @@ nav li:hover {
 }
 
 ul {
+  position: inherit;
+  list-style-type: none;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background: black;
+  overflow: hidden;
+  margin: 0;
 }
 
 li {
-  padding: 18px;
-  display: inline-block;
+  padding: 5%;
 }
+
 
 .iconButton {
   opacity: 0.7;
@@ -190,28 +193,39 @@ p {
   padding-right: 30px;
 }
 
-.navContent {
-  max-height: 0;
-  overflow: hidden;
-}
 
+/*dont display checklist thing*/
 input#menu {
   display: none;
 }
 
-#close {
+/***Menu Toggle Code***/
+
+/*dont display nav content*/
+.navContent {
+  display: none;
+  overflow: hidden;
+}
+
+/*dont display 'x'*/
+#closeIcon {
   display: none;
 }
 
-#menu:checked + label #menuBar {
+/*when checked, hide menu icon*/
+#menu:checked + label #menuIcon {
   display: none;
 }
 
-#menu:checked + label #close {
+/*when checked, show 'x'*/
+#menu:checked + label #closeIcon {
   display: block;
 }
 
+/*when checked, show menu*/
 #menu:checked ~ .navContent{
+  display: block;
+  width: 100%;
   max-height: 100%;
 }
 

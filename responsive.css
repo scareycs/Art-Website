@@ -119,14 +119,27 @@ body {
   }
 
   .navContent {
-    max-height: 100%;
+    display: block;
   }
 
   .collapseMenu {
-    max-height: 0;
+    display: none;
     overflow: hidden;
     padding: 0;
   }
 
+  li {
+    padding: 18px;
+    display: inline-block;
+  }
+
+  ul {
+    background: transparent;
+    padding: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 
 }
