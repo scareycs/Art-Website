@@ -118,7 +118,15 @@ body {
     margin-left: 20px;
   }
 
-  #motherAfrica {
-    width: 100%;
+  .navContent {
+    max-height: 100%;
   }
+
+  .collapseMenu {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+  }
+
+
 }

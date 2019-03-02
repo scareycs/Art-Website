@@ -23,18 +23,33 @@
   	          <p class="introHeader">Shawna Patrice Carey, the Visual Artist</p> 
   	    ,  </div>-->
         <div class="imgContainer">
-          <img src="silhouette.png">
+
         </div>
         
         <nav role="navigation">
-            <div class="logo"><img src="Avatar.png" alt="Shawna Carey's Logo"></div>
-            <a id="home" href="#"><div class="nameTitle">Shawna Patrice Carey</div></a>
+            <a id="home" href="#">
+              <div class="logo"><img src="Avatar.png" alt="Shawna Carey's Logo"></div>
+              <div class="nameTitle">Shawna Patrice Carey</div>
+            </a>
 
-            <ul>
-              <a class="navOpt" id="shop" href="#"><li>Shop</li></a>
-              <a class="navOpt" id="about" href="#"><li>About</li></a>
-              <a class="navOpt" id="contact" href="#"><li>Contact</li></a>
-            </ul>
+            <div class="navOpt">
+
+              <input type="checkbox" id="menu" class="collapseMenu">
+              <label for="menu" class="collapseMenu">
+                <span id="menuBar"><i class="fas fa-bars"></i></span>
+                <span id="close"><i class="fas fa-times"></i></span>
+              </label>
+
+              <div class="navContent">
+                <ul>
+                  <a class="navOpt" id="shop" href="#"><li>Shop</li></a>
+                  <a class="navOpt" id="about" href="#"><li>About</li></a>
+                  <a class="navOpt" id="contact" href="#"><li>Contact</li></a>
+                </ul>
+              </div>
+
+            </div>
+
         </nav>
       </section>
 

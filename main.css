@@ -181,3 +181,39 @@ li {
 p {
     font-size: 25px;
 }
+
+.collapseMenu {
+  float: right;
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.navContent {
+  max-height: 0;
+  overflow: hidden;
+}
+
+input#menu {
+  display: none;
+}
+
+#close {
+  display: none;
+}
+
+#menu:checked + label #menuBar {
+  display: none;
+}
+
+#menu:checked + label #close {
+  display: block;
+}
+
+#menu:checked ~ .navContent{
+  max-height: 100%;
+}
+
+
+
