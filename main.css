@@ -73,6 +73,8 @@ nav img {
 }
 
 .navOpt {
+  position: relative;
+  z-index: 2;
   color: white;
   font-size: 25px;
 }
