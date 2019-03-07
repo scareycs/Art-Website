@@ -42,7 +42,6 @@ a {
   top: 0; 
   height: 70px;
   z-index: 1;
-  background-color: #263c53;
   background-size: contain;
 }
 
@@ -87,7 +86,7 @@ ul {
   position: inherit;
   list-style-type: none;
   padding-left: 0px;
-  background: black;
+  background: rgba(0,0,0,0.8);
   overflow: hidden;
   margin: 0;
 }
@@ -95,7 +94,6 @@ ul {
 li {
   padding: 5%;
 }
-
 
 .iconButton {
   opacity: 0.7;
@@ -196,7 +194,7 @@ p {
 }
 
 
-/*dont display checklist thing*/
+/*dont display menu checklist thing*/
 input#menu {
   display: none;
 }
@@ -225,7 +223,7 @@ input#menu {
 }
 
 /*when checked, show menu*/
-#menu:checked ~ .navContent{
+#menu:checked ~ .navContent {
   display: block;
   width: 100%;
   max-height: 100%;
