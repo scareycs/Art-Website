@@ -22,14 +22,6 @@ body {
   
 }
 
-.shop .row{
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 60px;
-}
-
-
-
 /* Clearfix */
 .row::before,
 .row::after {
@@ -72,6 +64,10 @@ body {
     width: 33.3%;
   }
 
+  .gallery .col-4 {
+    width: 19.3%;
+  }
+
   /* 6 columns */
   .col-6 {
     width: 50%;
@@ -111,11 +107,9 @@ body {
     padding-right: 50px;
   }
 
-  .shopOpt1,
-  .shopOpt2,
-  .shopOpt3 {
-    margin-right: 20px;
-    margin-left: 20px;
+  .pieces {
+    width: 300px;
+    height: 500px;
   }
 
   .navContent {
@@ -140,6 +134,16 @@ body {
     margin-right: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .shop {
+    margin:auto;
+  }
+
+  .gallery {
+    margin: auto;
+    margin-right: 15%;
+    margin-left: 15%;
   }
 
 }

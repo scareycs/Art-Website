@@ -229,5 +229,13 @@ input#menu {
   max-height: 100%;
 }
 
+.shopOpt {
+  background: black;
+}
+
+.pieces {
+  height: auto;
+  width: 100%;
+}
 
 
