@@ -86,7 +86,7 @@ let pieces = [{
 for (let j=0; j < pieces.length; j++)
 {
 	console.log(pieces[j].picUrl);
-	$(".gallery").append(`<div class="col-4">
-       <img src="${pieces[j].picUrl}" class="pieces" id="piece${j}"></div>`);
+	$(".gallery").append(`<div class="col-4" id="piece${j+1}">
+       <img src="${pieces[j].picUrl}" class="pieces"></div>`);
 }
 

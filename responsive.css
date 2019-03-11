@@ -109,7 +109,7 @@ body {
 
   .pieces {
     width: 300px;
-    height: 500px;
+    height: 450px;
   }
 
   .navContent {
@@ -142,8 +142,15 @@ body {
 
   .gallery {
     margin: auto;
-    margin-right: 15%;
+    margin-right: 25%;
     margin-left: 15%;
   }
+  #piece1:hover{
+   width: 40%;
+  }
+
+#piece1:hover ~ #piece5, #piece4, #piece3, #piece2 {
+
+}
 
 }
